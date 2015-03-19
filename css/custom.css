@@ -1,0 +1,739 @@
+
+li {padding: 7px;
+margin: 18px;
+list-style-type: none;
+}
+
+
+
+
+/* Navigation effect on scroll down */
+
+.sub-header-shrink {
+    height: 80px;
+    float: right;
+    
+}
+/* The button comes to the right place */
+
+.sub-header.sub-header-shrink .button {
+    margin-top: 30px;
+    display: block;
+}
+/* The links goes up */
+
+.sub-header.sub-header-shrink #sub-nav a {
+    line-height: 40px;
+    color: #434547;
+}
+/* The hover state of the links */
+
+.sub-header.sub-header-shrink #sub-nav a:hover,
+.sub-header.sub-header-shrink #sub-nav .selected {
+    color: #64b7e3;
+}
+
+.sub-header {
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    z-index: 900;
+    height: 80px;
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    visibility: hidden;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.floatingHeader {
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    visibility: hidden;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+#sub-nav,
+#sub-nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+/* The main navigation bar */
+
+#sub-nav {
+    width: 100%;
+    /* The menu will take the width of its container */
+    
+    ;
+}
+
+#sub-nav>li {
+    float: right;
+    position: relative;
+    padding: 0px 15px;
+}
+/* The main navigation links */
+
+#sub-nav>li>a {
+    /* Layout */
+    
+    display: block;
+    /* Typography */
+    
+    font-size: 120%;
+    letter-spacing: 1px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #333;
+    opacity: 1;
+    text-decoration: none;
+    line-height: 80px;
+}
+
+#uxreserch, #uxd, #uxdev, #usability   {
+    height: 100%;
+    width: 100%;
+ background: rgba(189,204,212,0);
+    padding-bottom: 0px;   
+}
+
+
+#uxreserch h1 {
+    color: #C0528C   ;
+    display: block;
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 200%;
+    margin-left: 80px;
+}
+
+
+#uxd h1 {
+    color: #324659;
+    display: block;
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 200%;
+    margin-left: 80px;
+}
+
+#uxdev h1{
+    color: #42A1DA;
+    display: block;
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 200%;
+    margin-left: 80px;
+}
+
+
+#usability h1 {
+    color: #8E999F;
+    display: block;
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 200%;
+    margin-left: 80px;
+}
+
+#uxreserch h2 ,
+#uxd h2 , #uxdev h2, #usability h2 {
+    color: #515D69;
+    display: block;
+    padding: 50px 100px 30px 100px;
+    text-align: center;
+    font-weight: 100;
+    margin-left: 
+}
+
+#uxreserch h3,
+#uxd h3, #uxdev h3, #usability h3 {
+    font-size: 250%;
+    font-weight: 100;
+    line-height: 46px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #515D69;
+    margin-top: 0px;
+}
+
+#uxreserch h4, #uxd h4, #uxdev h4, #usability h4  {
+    font-size: 180%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    padding-bottom: 20px;
+    line-height: 35px;
+    border-bottom: 1px solid rgba(98,117,134,0.4);
+    margin-top: -25px;
+}
+#uxreserch h4 {
+    color: #C0528C;
+}
+#uxd h4 {
+    color: rgb(101,134,171);
+}
+#uxdev h4 {
+    color:#42A1DA;
+}
+#usability h4 {
+    color:#D66127;
+}
+
+
+#uxreserch h5, #uxd h5, #uxdev h5, #usability h5  {
+    font-weight: normal;
+    color: #50BAEF;
+    font-size: 130%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#uxreserch p,
+#uxd p, #uxdev p, #usability p {
+    font-size: 120%;
+    font-weight: 100;
+    margin-bottom: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #515D69;
+}
+
+#uxreserch .infograph1 p, 
+#uxd .infograph2 p,
+#uxdev .infograph3 p,
+#usability .infograph4 p
+{
+    height: 175px;
+
+}
+
+
+.infograph1 {
+    width: 100%;
+    padding-top: 30px;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 130px;
+}
+
+.infograph2 {
+    width: 100%;
+    padding-top: 30px;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+     padding-bottom: 130px;
+}
+
+.infograph3 {
+       padding-top: 30px;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+     padding-bottom: 130px;
+}
+
+.infograph4 {
+    padding-top: 30px;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+     padding-bottom: 130px;
+}
+
+
+#uxreserch .infograph1 p,
+#uxd .infograph2 p, 
+#uxdev .infograph3 p,
+#usability .infograph4 p
+{
+    color: #000;
+    font-weight: normal;
+    
+}
+
+
+#uxreserch #section_header1, #uxd #section_header1, #uxdev #section_header1,
+#usability #section_header1{
+/*background-color: rgba(223,169,197,1);*/
+/* background-color: rgba(189,204,212,1);*/
+
+    width: 100%;
+    height: 100%;
+}
+
+
+#uxreserch #section_header1{
+    background: url('/svg/banner-bkgd-hotred-06.svg') center no-repeat;
+    background-size: cover;
+
+}
+#uxd #section_header1{
+background: url('/svg/banner-bkgd-grayblue-07.svg') center no-repeat;
+    background-size: cover;
+}
+#uxdev #section_header1{
+background: url('/svg/banner-bkgd-blue-08.svg') center no-repeat;
+    background-size: cover;
+
+}
+#usability #section_header1{
+background: url('/svg/banner-bkgd-green-01.svg') center no-repeat;
+    background-size: cover;
+}
+
+
+
+#discovery-icon, 
+#analyze-icon, 
+#define-icon, 
+#concepting-icon,
+#validating-icon, 
+#visual-design-icon, #planning-icon,
+#building-icon,
+#deply-icon,
+#testing-icon
+{
+max-width: 300px;
+    height: 200px; 
+    margin-left: auto;
+    margin-right:auto;
+}
+/*#brainstorming-icon,
+#low-fedility-icon,
+#user-journey-icon,
+#user-workshop,
+#heuristic-analysis,
+#task-analysis, 
+#taxonomy,
+#ia,
+#usecase{
+width: 100%;
+    height: 278px;   
+      margin-left: auto;
+    margin-right:auto;
+}*/
+
+#top-image1{
+width: 100%;
+height: 500px;   
+}
+
+#top-image1{
+ background: url('/img/research-laptop.png') no-repeat;
+    background-size: contain;
+}
+
+
+#discovery-icon {
+    background: url('/svg/discovery-icon-wireframe.svg') center  no-repeat;
+    background-size: contain;
+}
+
+#analyze-icon {
+    background: url('/svg/analyze-icon-wireframe.svg') 50% 50% no-repeat;
+    background-size: contain;
+}
+
+#define-icon {
+    background: url('/svg/define-icon-wireframe.svg') center center no-repeat;
+    background-size: contain;
+}
+
+#concepting-icon {
+    background: url('/svg/concepting-icon-wireframe.svg') center  no-repeat;
+    background-size: 100%;
+}
+#arrow, #arrow2, #arrow3, #arrow4 {
+ margin-top:0px;
+    width: 100%;
+}
+#arrow{
+ background: url('/svg/arrow-01.svg')0px -175px no-repeat;
+    background-size: 100%;
+}
+#arrow2{
+ background: url('/svg/arrow-02.svg')0px -175px  no-repeat;
+    background-size: 100%;
+}
+#arrow3{
+ background: url('/svg/arrow-03.svg')0px -175px no-repeat;
+    background-size: 100%;
+}
+#arrow4{
+ background: url('/svg/arrow-04.svg') top center no-repeat;
+background-size: 100%;
+}
+
+/*#laptop-bkgrd{
+ background: url('/img/laptop-bkgrd.png') center center no-repeat;
+    background-size: contain;
+}*/
+
+/*#user-workshop {
+    background: url('/svg/user-workshop.svg') 50% 50% no-repeat;
+    background-size: contain;
+}
+
+#heuristic-analysis {
+    background: url('/svg/heuristic_analysis.svg') 50% 50% no-repeat;
+    background-size: contain;
+}
+#task-analysis {
+    background: url('/svg/task-analysis.svg') 50% 50% no-repeat;
+    background-size: contain;
+}
+#taxonomy {
+    background: url('/svg/taxonomy.svg') 50% 50% no-repeat;
+    background-size: contain;
+}
+#ia {
+    background: url('/svg/ia.svg') 50% 50% no-repeat;
+    background-size: contain;
+}
+#usecase {
+ background:url('../img/usecase.png') 50% 50% no-repeat;
+    background-size: contain;
+}
+
+#brainstorming-icon{
+ background:url('/svg/brainstorming-icon.svg') center  no-repeat;
+    background-size: cover;
+}
+#low-fedility-icon{
+ background: url('/svg/low-fedility-icon.svg') center  no-repeat;
+    background-size: cover;
+}
+#user-journey-icon{
+ background:url('/svg/user-journey-icon.svg') center  no-repeat;
+    background-size: cover;
+}*/
+
+
+#validating-icon {
+    background: url('/svg/validating-icon-wireframe.svg') center center no-repeat;
+    background-size: 100%;
+}
+
+#visual-design-icon {
+    background: url('/svg/visual-design-icon-wireframe.svg') center center no-repeat;
+    background-size: 100%;
+}
+
+#planning-icon{
+    background: url('/svg/planning-icon-wireframe.svg') center center no-repeat;
+    background-size: 100%;
+}
+#building-icon{
+    background: url('/svg/building-icon-wireframe.svg') center center no-repeat;
+    background-size: 100%;
+}
+#deply-icon{
+    background: url('/svg/deploy-icon-wireframe.svg') center center no-repeat;
+    background-size: 100%;
+}
+#testing-icon{
+    background: url('/svg/testing-icon-wireframe.svg') center center no-repeat;
+    background-size: 100%;
+}
+
+
+
+#ux-research-icon-large,
+#ux-design-icon-large,
+#ux-dev-icon-large,
+#ux-usability-icon-large
+{
+ width: 100%;
+    height: 158px;
+}
+
+
+#ux-research-icon-large{
+ background: url('../svg/ux-research-icon-full.svg') center center no-repeat;
+ background-size: contain;
+}
+
+#ux-design-icon-large{
+ background: url('../svg/ux-design-icon-full.svg')center center no-repeat;
+ background-size: contain;
+}
+
+#ux-dev-icon-large{
+ background: url('../svg/ux-development-icon-full.svg')center center no-repeat;
+ background-size: contain;
+}
+
+#ux-usability-icon-large{
+ background: url('../svg/usability-icon-full.svg') center center no-repeat;
+ background-size: contain;
+}
+
+.icon1{
+ background: url('../svg/ux-research-icon-full.svg')0px no-repeat;
+    background-size: contain;
+
+}
+.icon2{
+ background: url('../svg/ux-design-icon-full.svg')0px no-repeat;
+    background-size: contain;
+
+}
+.icon3{
+ background: url('../svg/ux-development-icon-full.svg') 0px no-repeat;
+    background-size: contain;
+
+}
+.icon4{
+ background: url('/svg/usability-icon-full.svg') 0px no-repeat;
+    background-size: contain;
+
+}
+
+
+
+.position {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.padding {
+    padding-top: 2%;
+}
+/* Feature Icon */
+
+.feature-icon {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5em;
+    margin-bottom: 2.75em;
+    cursor: default;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.feature-icon2 {
+    display: inline-block;
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 65px;
+    margin-bottom: 30px;
+    cursor: default;
+    text-align: center;
+}
+
+
+
+.feature-icon:before {
+    content: '';
+    background: rgba(98,117,134,0.4);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -0.325em;
+    width: 0.65em;
+    height: 0.65em;
+    display: block;
+    border-radius: 100%;
+    top: 260px;
+}
+
+.feature-icon:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0.65em;
+    width: 1px;
+    height: 2.35em;
+    background: rgba(98,117,134,0.4);
+    margin-left: -0.5px;
+    top: 99%;
+}
+
+.feature-icon2:before {
+    content: '';
+    background: rgba(98,117,134,0.4);
+    position: absolute;
+    bottom: 0;
+    width: 15px;
+    height: 15px;
+    display: block;
+    border-radius: 100%;
+    left: -7px;
+}
+
+.feature-icon2:after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 1px;
+    height: 60px;
+    background:rgba(98,117,134,0.4);
+    top: -76px;
+}
+/* research secion*/
+
+.infograph1 #research_description, .infograph2 #research_description {
+
+}
+
+.infograph1 #research_description p, 
+.infograph2 #research_description p, 
+.infograph3 #research_description p, 
+.infograph4 #research_description p {
+    padding: 10px 10px 10px 10px;
+    color: #899697;
+    font-weight: 100;
+    background-color: rgba(255,255,255,1);
+    height: 280px;
+/*    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);*/
+}
+.infograph1 #research_description p
+{
+    background-color: rgba(255,255,255,1);
+}
+.infograph2 #research_description p
+{
+    background-color: rgba(255,255,255,1);
+}
+.infograph3 #research_description p
+{
+    background-color: rgba(255,255,255,1);
+}
+.infograph4 #research_description p
+{
+    background-color: rgba(255,255,255,1);
+}
+
+
+
+.infograph1 #research_description a, .infograph2 #design_description a, 
+.infograph3 #research_description a, .infograph4 #research_description a {
+    padding: 10px 10px 10px 10px;
+    color: #000;
+    font-weight: 100;
+    font-style: italic
+}
+
+
+#section-header-casestudy{
+height: 600px;
+    width: 100%;
+background: rgb(98,117,134) url('/img/graph-sketch-bkgrd.png') no-repeat ; 
+    background-size:cover;
+    margin-bottom: 120px; 
+}
+
+#section-header-casestudy h2{
+width: 100%;
+    color: white;
+    text-align: center;
+    height: 100%;
+    padding-top: 14%;
+    font-size: 600%;
+}
+.work1, .work2, .work3, .work4  {
+     -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    width: 100%;
+     background: -webkit-linear-gradient(-90deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 1%, rgba(255,255,255,0) 42%, rgba(168,181,191,0.17) 100%);
+  background: -moz-linear-gradient(180deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 1%, rgba(255,255,255,0) 42%, rgba(168,181,191,0.17) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 1%, rgba(255,255,255,0) 42%, rgba(168,181,191,0.17) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.work1 h2, .work2 h2, .work3 h2 {
+    padding: 10px;
+    border-bottom: 1px solid #ededed;
+        color: #2F8BC1;
+
+}
+.work1 h3, .work2 h3, .work3 h3 {
+    font-weight: 100;
+    padding: 10px;
+    border-bottom: 1px solid #ededed;
+}
+
+.work1 p, .work2 p, .work3 p {
+    padding: 10px;
+    font-weight: 100;
+    color: #7E888F;
+    font-size: 120%;
+}
+
+figure ul {
+list-style-type:disc;
+margin-left: 30px;
+}
+
+figure ul li {
+list-style-type:disc;
+    padding: 10px;
+    font-weight: 400;
+    color: #7E888F;
+    font-weight: 100;
+    font-size: 120%;
+}
+
+
+.work1-container h3, .work2-container h3, .work3-container h3 {
+    font-weight: 100;
+    padding: 10px;
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 10px;
+}
+
+.img-bkgd img{
+ width: 90%;
+}
+
+#header .header-image{
+margin: 0 auto;
+    width: 100%;
+    padding-top: 200px;
+}
+
+
+
+
+.disc-info {
+    height: 300px;
+    width: 100%;
+}
+
+.top-header01 {
+    width: 100%;
+    height: 150px;
+    background:#324659;
+}
+
+#our_process {
+    height: 600px;
+    width: 100%;
+    background-color:#7E888F;
+}
